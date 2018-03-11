@@ -1,17 +1,22 @@
 .container {
   background-color: white;
   color: white;
+  padding: 20px;
 }
 
 /* start nav bar */
 .xs_height {
   height: 50px;
-  background-color: green;
+  background-color: black;
 }
 
 .sm_height {
   height: 75px;
-  background-color: red;
+  background-color: black;
+}
+
+.col-md-offset-3 {
+  margin-top: 20px;
 }
 
 .space_middle {
@@ -26,15 +31,20 @@
 .hero {
   height: 400px;
   background-color: black;
+  margin: 20px 0;
 }
 
 .md_height {
   height: 200px;
-  background-color: blue;
+  background-color: black;
 }
 
 .md_height_right {
   height: 200px;
   background-color: black;
-  margin-left: 20px;
+  margin-left: 45px;
+}
+
+.md_height_bottom {
+  margin-top: 60px;
 }
