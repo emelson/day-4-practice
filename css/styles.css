@@ -1,28 +1,40 @@
-.container-fluid {
-  
+.container {
   background-color: white;
   color: white;
 }
 
-.col-md-2 {
-  height: 100px;
+/* start nav bar */
+.xs_height {
+  height: 50px;
   background-color: green;
-  border: 1px solid blue;
-}
-.col-md-12 {
-  height: 400px;
-  background-color: black;
-  border: 1px solid white;
 }
 
-.col-md-6 {
+.sm_height {
+  height: 75px;
+  background-color: red;
+}
+
+.space_middle {
+  margin: 20px 45px;
+}
+
+.space {
+  margin: 20px 0px;
+}
+/* end nav bar */
+
+.hero {
+  height: 400px;
+  background-color: black;
+}
+
+.md_height {
   height: 200px;
   background-color: blue;
-  border: 1px solid red;
 }
-.col-md-3 {
+
+.md_height_right {
   height: 200px;
   background-color: black;
-  border: 1px solid white;
   margin-left: 20px;
 }
